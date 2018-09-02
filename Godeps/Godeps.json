@@ -1,0 +1,22 @@
+{
+	"ImportPath": "github.com/EdgeSmart/EdgeFairy",
+	"GoVersion": "go1.10",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/inconshreveable/mousetrap",
+			"Comment": "v1.0",
+			"Rev": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
+		},
+		{
+			"ImportPath": "github.com/spf13/cobra",
+			"Comment": "v0.0.3-6-g99dc123",
+			"Rev": "99dc123558852f67743bd0b2caf8383cb3c6d720"
+		},
+		{
+			"ImportPath": "github.com/spf13/pflag",
+			"Comment": "v1.0.2-3-g298182f",
+			"Rev": "298182f68c66c05229eb03ac171abe6e309ee79a"
+		}
+	]
+}
