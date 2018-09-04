@@ -11,7 +11,7 @@ var runCMD = &cobra.Command{
 	Short: "Run EdgeFairy deamon",
 	Long:  `Run EdgeFairy deamon`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("run")
+		fmt.Println("run command")
 	},
 }
 
