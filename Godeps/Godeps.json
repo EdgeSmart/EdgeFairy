@@ -2,7 +2,20 @@
 	"ImportPath": "github.com/EdgeSmart/EdgeFairy",
 	"GoVersion": "go1.10",
 	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
 	"Deps": [
+		{
+			"ImportPath": "github.com/eclipse/paho.mqtt.golang",
+			"Comment": "v1.1.1-9-g88c4622",
+			"Rev": "88c4622b8e24c52f64a0caaa28e40b91629bb6e6"
+		},
+		{
+			"ImportPath": "github.com/eclipse/paho.mqtt.golang/packets",
+			"Comment": "v1.1.1-9-g88c4622",
+			"Rev": "88c4622b8e24c52f64a0caaa28e40b91629bb6e6"
+		},
 		{
 			"ImportPath": "github.com/inconshreveable/mousetrap",
 			"Comment": "v1.0",
@@ -17,6 +30,40 @@
 			"ImportPath": "github.com/spf13/pflag",
 			"Comment": "v1.0.2-3-g298182f",
 			"Rev": "298182f68c66c05229eb03ac171abe6e309ee79a"
+		},
+		{
+			"ImportPath": "github.com/vmihailenco/msgpack",
+			"Comment": "v4.0.0",
+			"Rev": "935c5b540faab4d4922ae6f1fddcf77a726f259c"
+		},
+		{
+			"ImportPath": "github.com/vmihailenco/msgpack/codes",
+			"Comment": "v4.0.0",
+			"Rev": "935c5b540faab4d4922ae6f1fddcf77a726f259c"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "de0752318171da717af4ce24d0a2e8626afaeb11"
+		},
+		{
+			"ImportPath": "golang.org/x/net/internal/socks",
+			"Rev": "c39426892332e1bb5ec0a434a079bf82f5d30c54"
+		},
+		{
+			"ImportPath": "golang.org/x/net/proxy",
+			"Rev": "c39426892332e1bb5ec0a434a079bf82f5d30c54"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "c39426892332e1bb5ec0a434a079bf82f5d30c54"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "ec83556a53fe16b65c452a104ea9d1e86a671852"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/windows",
+			"Rev": "ec83556a53fe16b65c452a104ea9d1e86a671852"
 		}
 	]
 }
