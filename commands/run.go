@@ -21,7 +21,7 @@ var runCMD = &cobra.Command{
 func init() {
 	runCMD.Flags().StringVarP(&clusterKey, "cluster_key", "k", "", "Cluster key")
 	runCMD.Flags().StringVarP(&clusterToken, "cluster_token", "t", "", "Cluster token")
-	runCMD.Flags().StringVarP(&server, "server", "s", "tcp://edge.hopeness.net:1883", "Server config")
+	runCMD.Flags().StringVarP(&server, "server", "s", "tcp://127.0.0.1:1883", "Server config")
 	addCommand(runCMD)
 }
 
